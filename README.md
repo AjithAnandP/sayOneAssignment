@@ -21,8 +21,14 @@ Change the credentials of Data Base on application.yaml file with yours.
  
  Test Data
 -------------------
-
+From PostMan
+============
 http://localhost:8080/sayone/service/courses/getCourseList?countryCode=US&courseId=1
+
+From Swagger
+============
+courseId: 1
+countryCode: US
 
   
   
